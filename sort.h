@@ -40,7 +40,7 @@ void print_list(const listint_t *list);
 /* Sorting algoritms */
 void bubble_sort(int *arr, size_t arr_size);
 void insertion_sort_list(listint_t **list);
-void selection_sort(int *array, size_t size);
+void selection_sort(int *arr, size_t arr_size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
