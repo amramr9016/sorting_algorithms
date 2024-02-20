@@ -67,8 +67,8 @@ void heap_sort(int *array, size_t size)
 
     for (i = size - 1; i > 0; i--)
     {
-        exchange_integers(array, array + i)
-        print_array(array, size)
-        max_heapify(array, size, i, 0)
+        exchange_integers(array, array + i);
+        print_array(array, size);
+        max_heapify(array, size, i, 0);
     }
 }
